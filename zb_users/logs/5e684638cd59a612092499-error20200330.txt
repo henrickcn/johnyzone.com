@@ -1,0 +1,112 @@
+[2020-03-30 16:52:24 .41505400 +08:00]
+array (
+  0 => 'Exception',
+  1 => '相关页面不存在',
+  2 => 0,
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/zblogphp.php',
+  4 => 3071,
+)
+[2020-03-30 18:05:53 .04754400 +08:00]
+array (
+  0 => 'Error',
+  1 => 2,
+  2 => 'unlink(/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/pagebar.php): No such file or directory',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/template.php',
+  4 => 160,
+)
+[2020-03-30 18:05:53 .06645500 +08:00]
+array (
+  0 => 'Error',
+  1 => 2,
+  2 => 'unlink(/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/post-page.php): No such file or directory',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/template.php',
+  4 => 160,
+)
+[2020-03-30 18:05:53 .07030000 +08:00]
+array (
+  0 => 'Error',
+  1 => 2,
+  2 => 'unlink(/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/post-single.php): No such file or directory',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/template.php',
+  4 => 160,
+)
+[2020-03-30 18:05:53 .07485600 +08:00]
+array (
+  0 => 'Error',
+  1 => 2,
+  2 => 'unlink(/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/sidebar.php): No such file or directory',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/template.php',
+  4 => 160,
+)
+[2020-03-30 18:05:53 .07546200 +08:00]
+array (
+  0 => 'Error',
+  1 => 2,
+  2 => 'unlink(/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/sidebar2.php): No such file or directory',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/template.php',
+  4 => 160,
+)
+[2020-03-30 18:05:53 .07894500 +08:00]
+array (
+  0 => 'Error',
+  1 => 2,
+  2 => 'unlink(/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/sidebar3.php): No such file or directory',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/template.php',
+  4 => 160,
+)
+[2020-03-30 18:05:53 .08031600 +08:00]
+array (
+  0 => 'Error',
+  1 => 2,
+  2 => 'unlink(/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/sidebar4.php): No such file or directory',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/template.php',
+  4 => 160,
+)
+[2020-03-30 18:05:53 .08079800 +08:00]
+array (
+  0 => 'Error',
+  1 => 2,
+  2 => 'unlink(/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/sidebar5.php): No such file or directory',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/template.php',
+  4 => 160,
+)
+[2020-03-30 18:05:53 .08124800 +08:00]
+array (
+  0 => 'Error',
+  1 => 2,
+  2 => 'unlink(/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/single.php): No such file or directory',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/template.php',
+  4 => 160,
+)
+[2020-03-30 18:44:48 .99814800 +08:00]
+array (
+  0 => 'Exception',
+  1 => 'syntax error, unexpected \'>\'',
+  2 => 0,
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/index.php',
+  4 => 6,
+)
+[2020-03-30 18:45:09 .76918200 +08:00]
+array (
+  0 => 'Exception',
+  1 => 'syntax error, unexpected \'?\'',
+  2 => 0,
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/index.php',
+  4 => 5,
+)
+[2020-03-30 18:45:46 .94407500 +08:00]
+array (
+  0 => 'Error',
+  1 => 8,
+  2 => 'Undefined variable: urls',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/index.php',
+  4 => 2,
+)
+[2020-03-30 18:46:17 .23949400 +08:00]
+array (
+  0 => 'Error',
+  1 => 8,
+  2 => 'Undefined variable: urls',
+  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/index.php',
+  4 => 2,
+)
