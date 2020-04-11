@@ -1,4 +1,7 @@
-<table id="tbCalendar">
+<?php 
+print_r("====");exit;
+ ?>
+<table id="tbCalendar" class="layui-table">
     <caption><a href="<?php  echo $prevMonthUrl;  ?>">«</a>&nbsp;&nbsp;&nbsp;<a href="<?php  echo $nowMonthUrl;  ?>"><?php  echo $nowYear;  ?>年<?php  echo $nowMonth;  ?>月</a>&nbsp;&nbsp;&nbsp;<a href="<?php  echo $nextMonthUrl;  ?>">»</a></caption>
     <thead><tr><?php  for( $i = 1; $i <= 7; $i++) { ?> <th title="<?php  echo $lang['week'][$i];  ?>" scope="col"><small><?php  echo $lang['week_abbr'][$i];  ?></small></th><?php  }   ?></tr></thead>
     <tbody>

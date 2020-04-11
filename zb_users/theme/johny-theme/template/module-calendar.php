@@ -1,4 +1,7 @@
-<table id="tbCalendar">
+{php}
+print_r("====");exit;
+{/php}
+<table id="tbCalendar" class="layui-table">
     <caption><a href="{$prevMonthUrl}">«</a>&nbsp;&nbsp;&nbsp;<a href="{$nowMonthUrl}">{$nowYear}年{$nowMonth}月</a>&nbsp;&nbsp;&nbsp;<a href="{$nextMonthUrl}">»</a></caption>
     <thead><tr>{for $i = 1; $i <= 7; $i++}<th title="{$lang['week'][$i]}" scope="col"><small>{$lang['week_abbr'][$i]}</small></th>{/for}</tr></thead>
     <tbody>
