@@ -1,8 +1,0 @@
-[2020-03-31 09:20:15 .28328800 +08:00]
-array (
-  0 => 'Error',
-  1 => 8,
-  2 => 'Undefined variable: nowYear',
-  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_users/cache/compiled/johny-theme/footer.php',
-  4 => 9,
-)

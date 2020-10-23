@@ -1,8 +1,0 @@
-[2020-04-03 11:46:35 .19948400 +08:00]
-array (
-  0 => 'Exception',
-  1 => '相关页面不存在',
-  2 => 0,
-  3 => '/Volumes/KINGSTON/usr/local/var/www/johnyzone.com/zb_system/function/lib/zblogphp.php',
-  4 => 3071,
-)

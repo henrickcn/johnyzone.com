@@ -1,51 +1,26 @@
 <?php
 /**
- *****************************************************************************************************
- *    如果您通过浏览器访问网站时看到了这个提示，那么我们很遗憾地通知您，您的空间不支持 PHP 。
- *    也就是说，您的空间可能是静态空间，或没有安装PHP，或没有为 Web 服务器打开 PHP 支持。
- *    Sorry, PHP is not installed on your web hosting if you see this prompt.
- *    Please check out the PHP configuration.
+ * Typecho Blog Platform
  *
- *    如您使用虚拟主机：
- *
- *        > 联系空间商，更换空间为支持 PHP 的空间。
- *        > Contact your service provider, and let them provice a new service which supports PHP.
- *
- *
- *    如您自行搭建服务器，推荐您：
- *    Configuring manually? Recommend:
- *
- *        > 访问 PHP 官方网站获取安装帮助。
- *        > Visit PHP Official Website to get the documentation of installion and configuration.
- *        > http://php.net
- *
- ******************************************************************************************************
+ * @copyright  Copyright (c) 2008 Typecho team (http://www.typecho.org)
+ * @license    GNU General Public License 2.0
+ * @version    $Id: index.php 1153 2009-07-02 10:53:22Z magike.net $
  */
 
-/**
- * Z-Blog with PHP.
- *
- * @author
- * @copyright (C) RainbowSoft Studio
- *
- * @version
- */
-require 'zb_system/function/c_system_base.php';
-
-$zbp->RedirectInstall();
-$zbp->CheckGzip();
-$zbp->Load();
-$zbp->RedirectPermanentDomain();
-$zbp->CheckSiteClosed();
-
-foreach ($GLOBALS['hooks']['Filter_Plugin_Index_Begin'] as $fpname => &$fpsignal) {
-    $fpname();
+/** 载入配置支持 */
+if (!defined('__TYPECHO_ROOT_DIR__') && !@include_once 'config.inc.php') {
+    file_exists('./install.php') ? header('Location: install.php') : print('Missing Config File');
+    exit;
 }
 
-ViewIndex();
+/** 初始化组件 */
+Typecho_Widget::widget('Widget_Init');
 
-foreach ($GLOBALS['hooks']['Filter_Plugin_Index_End'] as $fpname => &$fpsignal) {
-    $fpname();
-}
+/** 注册一个初始化插件 */
+Typecho_Plugin::factory('index.php')->begin();
 
-RunTime();
+/** 开始路由分发 */
+Typecho_Router::dispatch();
+
+/** 注册一个结束插件 */
+Typecho_Plugin::factory('index.php')->end();
