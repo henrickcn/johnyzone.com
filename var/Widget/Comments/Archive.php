@@ -106,15 +106,16 @@ class Widget_Comments_Archive extends Widget_Abstract_Comments
         $singleCommentOptions->afterAuthor(); ?></cite>
     </div>
     <div class="comment-meta">
-        <a href="<?php $this->permalink(); ?>"><time itemprop="commentTime" datetime="<?php $this->date('Y-m-d'); ?>"><?php $singleCommentOptions->beforeDate();
-        $this->date($singleCommentOptions->dateFormat);
-        $singleCommentOptions->afterDate(); ?></time></a>
+        <a href="<?php $this->permalink(); ?>"><time itemprop="commentTime" datetime="Y-m-d H:i">
+                <?php $this->date("Y-m-d H:i", $singleCommentOptions->beforeDate());?></time></a>
         <?php if ('waiting' == $this->status) { ?>
         <em class="comment-awaiting-moderation"><?php $singleCommentOptions->commentStatus(); ?></em>
         <?php } ?>
     </div>
     <div class="comment-content" itemprop="commentText">
-    <?php $this->content(); ?>
+        <div class="bubble">
+            <?php $this->content(); ?>
+        </div>
     </div>
     <div class="comment-reply">
         <?php $this->reply($singleCommentOptions->replyWord); ?>
